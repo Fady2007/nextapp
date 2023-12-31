@@ -10,7 +10,7 @@ import LikeButton from './LikeButton'
 const TopicsFromdb = ({ topics }: any) => {
     const person = {
         name: "Fady",
-        imageUrl: "/profileLogo.PNG"
+        imageUrl: "./profileLogo.PNG"
     }
     return (
         <div>
