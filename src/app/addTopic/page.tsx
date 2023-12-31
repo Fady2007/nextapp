@@ -1,7 +1,6 @@
 "use client"
 import Link from 'next/link'
 import React, { useState } from 'react'
-import { HiPlus, HiPlusCircle } from 'react-icons/Hi'
 import { useRouter } from 'next/navigation'
 
 const AddTopic = () => {
