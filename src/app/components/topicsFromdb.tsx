@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import RemoveBtn from './RemoveBtn'
 import Link from 'next/link'
-import { HiBan, HiEmojiHappy, HiEmojiSad, HiHashtag, HiPencilAlt, HiShare, HiStar, HiThumbDown, HiThumbUp } from 'react-icons/Hi'
+// import { HiBan, HiEmojiHappy, HiEmojiSad, HiHashtag, HiPencilAlt, HiShare, HiStar, HiThumbDown, HiThumbUp } from 'react-icons/Hi'
 import { Profiles } from './info'
 import "./style.css"
 import LikeButton from './LikeButton'
@@ -40,16 +40,16 @@ const TopicsFromdb = ({ topics }: any) => {
 
                                 <LikeButton id={t._id} />
                                 <div className='text-gray-400 cursor-pointer hover:text-slate-600 transition 1574ms flex items-center gap-1'>
-                                    <HiShare size={24} />
+                                    {/* <HiShare size={24} /> */}
                                     <span>Share</span>
                                 </div>
                                 <div className='text-gray-400 cursor-pointer hover:text-orange-400 transition 1574ms flex items-center gap-1'>
-                                    <HiStar size={24} />
+                                    {/* <HiStar size={24} /> */}
                                     <span>Favourite</span>
                                 </div>
                             </div>
                             <div className='flex items-center gap-1 mt-2'>
-                                <HiHashtag className='size-em text-gray-400 transition 1574ms' />
+                                {/* <HiHashtag className='size-em text-gray-400 transition 1574ms' /> */}
                                 <span className='text-gray-500 text-sm transition 1574ms'>
                                     id: {t._id}
                                 </span>
@@ -58,7 +58,7 @@ const TopicsFromdb = ({ topics }: any) => {
                         <div className='flex gap-2'>
                             <RemoveBtn id={t._id} />
                             <Link href={`/edit123/${t._id}`} className='text-slate-500 hover:text-blue-400 transition'>
-                                <HiPencilAlt size={24} />
+                                {/* <HiPencilAlt size={24} /> */}
                             </Link>
                         </div>
                     </div>

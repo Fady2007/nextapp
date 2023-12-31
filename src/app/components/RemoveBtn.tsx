@@ -1,7 +1,6 @@
 "use client"
 import { useRouter } from 'next/navigation'
 import React from 'react'
-import { HiOutlineTrash } from "react-icons/Hi"
 
 
 
@@ -20,7 +19,7 @@ const RemoveBtn = ({ id }: any) => {
   return (
     <div>
       <button onClick={removeTopic} className='text-red-400 hover:text-red-600 transition'>
-        <HiOutlineTrash size={24} />
+        {/* <HiOutlineTrash size={24} /> */}
       </button>
     </div>
   )

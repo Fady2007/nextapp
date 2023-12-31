@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { HiLogin, HiLogout } from 'react-icons/Hi'
+// import { HiLogin, HiLogout } from 'react-icons/Hi'
 
 const Navbar = () => {
     return (
@@ -13,7 +13,7 @@ const Navbar = () => {
                     <Link href="/addTopic" className='bg-gray-200 rounded p-2 transition hover:bg-gray-300 transition-duration: 150ms text-black'>+ Add Topic</Link>
 
                     <Link href="/" className='bg-green-200 rounded p-2 transition hover:bg-green-300 transition-duration: 150ms text-black flex gap-1 items-center'>
-                        <HiLogin size={24} />
+                        {/* <HiLogin size={24} /> */}
                         <span>
                             Sign in
                         </span>

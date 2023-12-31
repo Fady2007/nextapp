@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react';
-import { HiThumbUp } from 'react-icons/Hi';
+// import { HiThumbUp } from 'react-icons/Hi';
 import Topic from './topic';
 
 const LikeButton = ({ params }: any) => {
@@ -22,7 +22,7 @@ const LikeButton = ({ params }: any) => {
             // Change color based on liked state
             >
                 <h2 className='text-gray-400'>{likes}</h2>
-                <HiThumbUp size={24} />
+                {/* <HiThumbUp size={24} /> */}
                 <span>Like</span>
             </button>
         </>

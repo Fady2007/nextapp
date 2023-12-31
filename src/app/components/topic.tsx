@@ -1,5 +1,5 @@
 import React from 'react'
-import { HiPencilAlt, HiOutlineTrash, HiPlusCircle, HiPencil } from "react-icons/Hi"
+// import { HiPencilAlt, HiOutlineTrash, HiPlusCircle, HiPencil } from "react-icons/Hi"
 import Link from 'next/link'
 import RemoveBtn from './RemoveBtn'
 import TopicsFromdb from './topicsFromdb'
@@ -44,7 +44,7 @@ export default async function Topic() {
                         </h1>
                         <Link href="./addTopic"
                             className='bg-slate-600 w-50 flex text-white items-center justify-center gap-1 text-center rounded p-2 transition hover:bg-slate-500 transition-duration: 150ms'>
-                            <HiPlusCircle className='text-lg'></HiPlusCircle>
+                            {/* <HiPlusCircle className='text-lg'></HiPlusCircle> */}
                             <div>Create a Topic</div>
                         </Link>
                     </div>

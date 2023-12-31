@@ -1,1 +1,9 @@
-{}
+{
+  "/_not-found": "app/_not-found.js",
+  "/addTopic/page": "app/addTopic/page.js",
+  "/api/topics/[id]/route": "app/api/topics/[id]/route.js",
+  "/api/topics/route": "app/api/topics/route.js",
+  "/edit123/[id]/page": "app/edit123/[id]/page.js",
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}
