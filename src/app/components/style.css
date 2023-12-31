@@ -1,0 +1,19 @@
+.size-em {
+  font-size: 1.4em;
+}
+
+.segoe {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.hover-shadow:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
